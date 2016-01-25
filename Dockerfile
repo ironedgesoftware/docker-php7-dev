@@ -10,4 +10,6 @@ RUN apt-get update && apt-get install -y git multitail graphviz && pecl install 
 
 WORKDIR /development
 
+EXPOSE 80
+
 CMD ["/bin/bash"]
